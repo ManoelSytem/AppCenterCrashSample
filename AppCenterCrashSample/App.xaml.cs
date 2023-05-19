@@ -17,9 +17,7 @@ namespace AppCenterCrashSample
 
         protected override void OnStart()
         {
-            AppCenter.Start("ios={Your iOS App secret here};" +
-                  "uwp={Your UWP App secret here};" +
-                  "android={Your Android App secret here}",
+            AppCenter.Start("android=93fefcf9-a898-4f7b-a533-8995a0805ff9",
                   typeof(Crashes));
         }
 
